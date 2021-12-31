@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "dotenv": "^10.0.0",
     "i": "^0.3.7",
     "npm": "^8.3.0",
     "postman-request": "^2.88.1-postman.30"
@@ -7,7 +8,6 @@
   "name": "weatherapp",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

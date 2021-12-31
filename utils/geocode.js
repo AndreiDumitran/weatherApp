@@ -1,10 +1,11 @@
 const request = require("postman-request");
-
+require("dotenv").config();
+const db = require("db:weather");
 const geocode = (address, callback) => {
   const url =
     "https://api.mapbox.com/geocoding/v5/mapbox.places/" +
     encodeURIComponent(address) +
-    ".json?access_token=pk.eyJ1IjoiY29ucmFkLTIyIiwiYSI6ImNreHRpcXo0dDB5dzgydnBjOHUwNmMxNjMifQ.70eB-yCq-r0hUuh6FVOgQg&limit=1 ";
+    ".json?access_token=&limit=1 ";
 
   request({ url, json: true }, (error, { body }) => {
     if (error) {

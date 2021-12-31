@@ -1,6 +1,6 @@
-# Simple Notes App using NodeJS
+# Simple Weather App using NodeJS
 
-This is a simple Notes taking app written in JavaScript.
+This is a simple Weather app which takes the input from the user and converts the location using MapBox API into geocode and gives the weather from WeatherStack API.
 
 ## Stack used:
 
@@ -8,9 +8,10 @@ This is a simple Notes taking app written in JavaScript.
    - JavaScript
 2. Frameworks:
    - NodeJS - to run the app
-   - chalk - to offer colours to the outputs
-   - yargs - to create the commands
-   - fs (file system) - to save locally the notes in `JSON` format
+   - Postman-request
+3. APIs
+   - MapBox
+   - WeatherStack
 
 ## Usage:
 
