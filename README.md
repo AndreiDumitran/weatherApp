@@ -1,15 +1,21 @@
 # Simple Weather App using NodeJS
 
-This is a simple Weather app which takes the input from the user and converts the location using MapBox API into geocode and gives the weather from WeatherStack API.
+This is a simple Weather app which takes the location as input from the user and converts it using MapBox API into geocode and gives the weather from WeatherStack API for.
 
 ## Stack used:
 
 1. Programming Languages:
    - JavaScript
-2. Frameworks:
-   - NodeJS - to run the app
+2. Backend:
+   - NodeJS
    - Postman-request
-3. APIs
+   - ExpressJS
+   - Handlebars
+   - Nodemon
+3. Frontend:
+   - HTML
+   - CSS
+4. APIs
    - MapBox
    - WeatherStack
 
