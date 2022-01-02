@@ -4,6 +4,7 @@ const hbs = require("hbs");
 const geocode = require("./utils/geocode");
 const forecast = require("./utils/weather");
 const path = require("path");
+
 const app = express();
 
 const port = process.env.PORT || 3000; // starts on heroku port or localhost:3000
