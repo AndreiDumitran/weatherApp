@@ -1,10 +1,9 @@
-const path = require("path");
+#!/usr/bin/env node
 const express = require("express");
 const hbs = require("hbs");
 const geocode = require("./utils/geocode");
 const forecast = require("./utils/weather");
-const { log } = require("console");
-
+const path = require("path");
 const app = express();
 
 const port = process.env.PORT || 3000;
