@@ -1,4 +1,4 @@
-# Simple Weather App using NodeJS
+# Simple Weather App using NodeJS - [demo][website]
 
 This is a simple Weather app which takes the location as input from the user and converts it using MapBox API into geocode and gives the weather from WeatherStack API for.
 
@@ -19,45 +19,4 @@ This is a simple Weather app which takes the location as input from the user and
    - MapBox
    - WeatherStack
 
-## Usage:
-
-To run the app, run:
-
-```bash
-node app.js
-```
-
-To see the help menu, run:
-
-```bash
-node app.js --help
-```
-
-```javascript
-Commands:
-  app.js add     Add a new note
-  app.js remove  Remove a note
-  app.js list    List your notes
-  app.js read    Read a note
-
-Options:
-  --help     Show help                                                 [boolean]
-  --version  Show version number                                       [boolean]
-```
-
-To view specific function, run:
-
-```bash
-node app.js add --help
-```
-
-```javascript
-
-Add a new note
-
-Options:
-  --help     Show help                                  [boolean]
-  --version  Show version number                        [boolean]
-  --title    Note title                                 [string] [required]
-  --body     Note body                                  [string] [required]
-```
+[website]: https://weatherapp-l-andrei.herokuapp.com/
