@@ -1,25 +1,17 @@
 {
-  "dependencies": {
-    "i": "^0.3.7",
-    "npm": "^8.3.0",
-    "postman-request": "^2.88.1-postman.30"
-  },
-  "name": "weatherapp",
+  "name": "web-server",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node web-server/src/app.js start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AndreiDumitran/weatherApp.git"
+    "start": "web-server/src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AndreiDumitran/weatherApp/issues"
-  },
-  "homepage": "https://github.com/AndreiDumitran/weatherApp#readme",
-  "description": ""
+  "dependencies": {
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "postman-request": "^2.88.1-postman.30"
+  }
 }
