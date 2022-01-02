@@ -7,6 +7,8 @@ const { log } = require("console");
 
 const app = express();
 
+const port = process.env.PORT || 3000;
+
 // Define PATHS
 const publicDirectoryPath = path.join(__dirname, "../public");
 const viewsPath = path.join(__dirname, "../templates/views");
@@ -86,6 +88,6 @@ app.get("*", (req, res) => {
 });
 
 // ------------- START -------------
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log("Server up on PORT 3000");
 });
